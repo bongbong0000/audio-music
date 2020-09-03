@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+}
+
+.App {
+  min-height: 100vh;
+  padding: 120px 0;
+  background-color: #BDBDBD;
+  color: #101010; 
+  text-align: center;
+}
+
+.Song-Thumbnail {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  object-fit: cover;
+}
+
+.Song-Title {
+  text-transform: capitalize;
+  margin-bottom: 0;
+}
+
+.Singer {
+  margin-top: 0;
+  margin-bottom: 32px;
+  font-size: 12px;
+  color: Black;
+}
+
+.Control-Button-Group {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  > * {
+    cursor: pointer;
+  }
+}
+
+.Prev-Button,
+.Next-Button {
+  width: 20px;
+}
+
+.Pause-Play-Button {
+  display: flex;
+  justify-content: center;
+  width: 10px;
+  height: 18px;
+  margin: 0 32px;
+  background-color: black;
+  
+
+  svg {
+    height: 22px;
+
+  }
+}
